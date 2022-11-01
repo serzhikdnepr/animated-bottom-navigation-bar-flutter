@@ -406,6 +406,7 @@ class _AnimatedBottomNavigationBarState
   Widget _buildBody() {
     return Container(
       height: widget.height ?? kBottomNavigationBarHeight,
+      margin: const EdgeInsets.symmetric(horizontal: 20),
       decoration: BoxDecoration(
         color: widget.backgroundColor ?? Colors.white,
         gradient: widget.backgroundGradient,
